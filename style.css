@@ -2,3 +2,24 @@ html, body {
   height: 100%;
   width: 100%;
 }
+/*
+la cascada solo aplica los ultimos estilos modificados  
+
+.title{
+  color:blue;  
+}
+.title{
+  color:crimson;  
+}
+*/
+.title{
+  color:blue;  
+}
+h1{
+  color:tomato;   
+  font-size:40px;
+}
+
+/* 1- selector de tipo, Pseudoelementos ::*/
+/* 10- selector de clase, Pseudoclase  :,[]*/
+/* 100- selector de ID*/
