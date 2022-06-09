@@ -12,6 +12,9 @@ la cascada solo aplica los ultimos estilos modificados
   color:crimson;  
 }
 */
+#title{
+  color:grey;  
+}
 .title{
   color:blue;  
 }
@@ -19,7 +22,11 @@ h1{
   color:tomato;   
   font-size:40px;
 }
+body> .title{
+  color:yellowgreen;
+}
 
 /* 1- selector de tipo, Pseudoelementos ::*/
 /* 10- selector de clase, Pseudoclase  :,[]*/
 /* 100- selector de ID*/
+/* important- apesar que el valor tenga mayor especifidad la palabra important tiene una mayor gerarquia*/
