@@ -1,4 +1,44 @@
-html, body {
-  height: 100%;
-  width: 100%;
+.caja{
+background-color:steelblue;
+  color:white;
+  font-size:30px;
+  font-family:arial;
+  width:200px;
+  height: 200px;
+  /*
+  agrega un relleno
+  aumenta en la 4 dimenciones el tamaño en 30
+  padding:30px;
+  */
+ 
+  padding-right:30px;
+  padding-left:30px;
+  padding-bottom:30px;
+
+  padding:80px 50px 10px 20px;
+ padding-top:30px;
+  /*border*/
+
+  border-width: 5px;
+  border-top-width:30px;
+  border-rigth-width:10px;
+  border-bottom-width:20px;
+  border-left-width:5px;  
+
+   border-style:dashed;
+  border-style:ridge;
+  border-top-style:dotted;
+  border-rigth-style:dashed;
+  border-bottom-style:solid;
+  border-left-style:double;  
+
+  border-color:purple;
+  border-top-color:greenyellow;
+  border-rigth-color:black;
+  border-bottom-color:blueviolet;
+  border-left-color:grey;  
+
+  /*
+  border es la forma corta de escribir border: color width style;
+  */
 }
