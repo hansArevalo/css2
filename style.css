@@ -1,12 +1,10 @@
-
-body{
-  color:yellowgreen;
-  font-family:cursive;
-}
-a{
-  color:inherit;
-}
-/*el  inherit es para heredar del padre*/
-input{
-  font-family:inherit;
+.caja{
+ background-color:yellow;
+  width:200px;
+  max-width:30%;
+  min-width:20%;
+  height:100px;
+  max-height:300px;
+  min-height:200px;
+  overflow:hidden;/*para que no se salga de la caja o mejor se oculte lo que se sale*/
 }
