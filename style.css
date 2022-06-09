@@ -14,9 +14,9 @@ background-color:steelblue;
   padding-right:30px;
   padding-left:30px;
   padding-bottom:30px;
-
-  padding:80px 50px 10px 20px;
  padding-top:30px;
+  padding:80px 50px 10px 20px;
+
   /*border*/
 
   border-width: 5px;
@@ -41,4 +41,13 @@ background-color:steelblue;
   /*
   border es la forma corta de escribir border: color width style;
   */
+}
+
+.caja1{
+  margin:80px;
+
+  margin-right:20px;
+  margin-left:40px;
+  margin-bottom:60px;
+ margin-top:10px;
 }
