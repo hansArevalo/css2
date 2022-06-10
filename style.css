@@ -1,3 +1,19 @@
+/*el colapso de las margenes se solucionan: 
+agregando un margin o un padding */
+.main{
+  background-color:steelblue;
+  color:white;
+  margin-bottom:30px;
+  padding:1px;
+}
+.footer{
+  background-color:slateblue;
+  color:white;
+  margin-top:50px;
+}
+
+
+
 .caja{
 background-color:steelblue;
   color:white;
